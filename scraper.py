@@ -105,6 +105,7 @@ def scrap(store):
 for store in store_cd:
     scrap(store)
 
+## 저장 및 csv 파일
 def saveToFile(filename, datas):
     with open(filename, 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f)
